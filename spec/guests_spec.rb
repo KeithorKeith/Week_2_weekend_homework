@@ -8,5 +8,7 @@ require_relative("../songs")
 class GuestTest < MiniTest::Test
 
   def setup
-    
+    @guest = Guest.new("Keith")
   end
+
+end

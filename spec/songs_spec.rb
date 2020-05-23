@@ -4,9 +4,12 @@ Minitest::Reporters.use! Minitest::Reporters::SpecReporter.new
 
 require_relative("../rooms")
 require_relative("../songs")
+require_relative("../guests")
 
-class SongsTest < MiniTest::Test
+class SongTest < MiniTest::Test
 
     def setup
-
+        @song = Song.new("Childish")
     end
+
+end

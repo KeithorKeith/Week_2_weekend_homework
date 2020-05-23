@@ -1,4 +1,4 @@
-class Guests
+class Song
 
     attr_reader :name
 
